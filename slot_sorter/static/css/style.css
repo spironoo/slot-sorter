@@ -1,0 +1,24 @@
+/* slot-sorter/slot_sorter/static/css/style.css */
+body { font-family: Arial, sans-serif; max-width: 1200px; margin: 0 auto; padding: 20px; background-color: #f4f7f6; }
+h1, h2 { color: #333; }
+.container { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.form-container, .results-container { background-color: white; border: 1px solid #ddd; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+.record-row { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 15px; padding: 15px; border: 1px solid #eee; border-radius: 5px; align-items: flex-end; }
+input { padding: 8px; border: 1px solid #ddd; border-radius: 4px; width: 100%; box-sizing: border-box; }
+button { padding: 10px 15px; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 1em; }
+.remove-btn { background-color: #f44336; }
+.remove-btn:hover { background-color: #d32f2f; }
+#add-btn { background-color: #2196F3; margin-bottom: 15px; }
+#add-btn:hover { background-color: #1976d2; }
+#submit-btn { background-color: #4CAF50; margin-top: 10px; width: 100%; font-size: 1.1em; }
+#submit-btn:hover { background-color: #45a049; }
+.permutation-item { padding: 10px; margin-bottom: 15px; border: 1px solid #ddd; border-radius: 5px; background-color: #f9f9f9; }
+.slot-assignment { display: flex; justify-content: space-between; padding: 5px 0; }
+.slot-number { font-weight: bold; min-width: 60px; }
+.assignment-value { flex-grow: 1; }
+.permutation-header { font-weight: bold; margin-bottom: 8px; padding-bottom: 5px; border-bottom: 1px solid #ddd; }
+.field-group { display: flex; flex-direction: column; gap: 5px; flex-grow: 1; }
+.error { border-color: red !important; }
+.note { color: #666; font-size: 0.9em; margin-top: 5px; }
+.results-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
+#permutation-count { font-weight: bold; color: #555; }

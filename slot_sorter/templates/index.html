@@ -1,0 +1,33 @@
+<!-- slot-sorter/slot_sorter/templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slot Sorter</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>Slot Permutations Generator</h1>
+    <div class="container">
+        <div class="form-container">
+            <h2>Add Records</h2>
+            <div id="records-container">
+                <!-- Initial record row will be inserted by JS -->
+            </div>
+            <button id="add-btn">+ Add Another Record</button>
+            <button id="submit-btn">Generate Permutations</button>
+        </div>
+        <div class="results-container">
+            <div class="results-header">
+                <h2>Permutations Results</h2>
+                <div id="permutation-count">0 permutations</div>
+            </div>
+            <div id="results"></div>
+        </div>
+    </div>
+
+    <!-- The 'defer' attribute ensures the script runs after the document is parsed -->
+    <script src="{{ url_for('static', filename='js/main.js') }}" defer></script>
+</body>
+</html>
