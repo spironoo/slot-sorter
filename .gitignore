@@ -1,0 +1,38 @@
+# --- Python ---
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Virtual Environment ---
+# It's crucial to not commit your virtual environment
+venv/
+env/
+.venv/
+
+# --- Flask ---
+# Flask's instance folder for local configuration
+instance/
+
+# --- IDE / Editor ---
+# VS Code
+.vscode/
+
+# JetBrains / PyCharm
+.idea/
+
+# --- Operating System ---
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# --- Logs and Local Config ---
+# Log files
+*.log
+
+# Environment variables (NEVER commit secrets)
+.env
+*.env
