@@ -18,4 +18,4 @@ if __name__ == '__main__':
     # Run the browser-opening function on a timer 1 second after starting the server
     Timer(1, open_browser).start()
     # Run the Flask app
-    app.run(host=HOST, port=PORT, debug=True)
+    app.run(host=HOST, port=PORT, debug=False)
